@@ -3,7 +3,53 @@
 <link rel="stylesheet" href="styles.css">
 </heaD>
 <body style="font-family:Arial, Helvetica, sans-serif">
-<div><mg src="aaa.jpg" class="hintergr"></div>
+<div id="container">
+    <h1>Hochzeit Lilli & Simon</h1>
+    <p id="demo"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Apr 5, 2025 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "Verheiratet!";
+  }
+}, 1000);
+const element1 = document.querySelector('.element1');
+const element2 = document.querySelector('.element2');
+
+// Hole die Höhe von element1
+const height1 = window.getComputedStyle(element1).height;
+
+// Setze die Höhe von element2 auf dieselbe Höhe
+element2.style.height = height1;
+</script>
+    <div id="blackground" class="element2"></div>
+    
+    <img src="aaaa.jpg" id="bild2" class="element1">
+    <img src="aaaaaa.jpg" id="bild1">
+</div>
 <div id="h2"> 
     <div class="testttt">
     <h2 class="antwort" >Wo?</h2>
@@ -38,12 +84,3 @@
 </body>
 
 </html>
-<script>
-    // Startet das Verblassen nach 3 Sekunden
-    setTimeout(function() {
-        document.getElementById('anfangspoiler').classList.add('hidden');
-    }, 3000); // 3000 Millisekunden = 3 Sekunden
-    setTimeout(function() {
-            document.getElemntById('aa').classList.add('aaa');
-        }, 3000); // 3000 Millisekunden = 3 Sekunden
-</script>
