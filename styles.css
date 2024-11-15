@@ -4,21 +4,20 @@
 
 
 #h2 {
-    font-family:'Courier New', Courier, monospace;
     text-align: center;
     
 }
 .antwort {
-  font-size: 21;
+  font-size: 60;
 }
 .frage {
   
-    font-size: 21 ;
+    font-size: 40 ;
     
 }
 .frage2 {
   
-    font-size: 21 ;
+    font-size: 40 ;
 }
 .inputs {
     border: 0px solid black;
@@ -49,9 +48,9 @@ z-index: -1;
 .testtt {
     background-color: white;
     border: 1px black solid;
-    border-radius: 22px;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    border-radius: 25px;
+    margin-left: 25vw;
+    margin-right: 25vw;
     margin-top: 50px;
     
 }
@@ -59,8 +58,8 @@ z-index: -1;
     background-color: white;
     border: 1px black solid;
     border-radius: 22px;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
     margin-top: 50px;
     padding-bottom: 50px;
 }
@@ -99,23 +98,26 @@ body {
     100% { opacity: 1; } /* Ende: Volle Deckkraft wieder */
 }
 h1 {
-    text-align: center;
+    text-align: left;
     z-index: 200;
     opacity: 20;
     position: relative;
-    top:200px;
-    font-size: xxx-large;
+    top:250px;
+    font-size: 100;
     color: white;
+    font-family: 'Ms Madi';
+    margin-left: 3vw;
     
 }
 #demo {
     z-index: 20;
     opacity: 100;
     position: relative;
-    top: 200px;
-    text-align: center;
+    top: -300px;
+    text-align: right;
     font-size: xxx-large;
     color: white;
+    padding-right: 20px;
 
 }
 #blackground {
@@ -126,3 +128,24 @@ h1 {
     top: 0px;
     left: 0px;
 }
+#cr7 {
+    text-align: center;
+    color: white;
+}
+
+.aboutus {
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 25px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 200px;
+    padding: 5vw;
+    font-size: 46;
+}
+
+hr {
+    border: 1px solid black; width: 40vw; margin-top: -15px; width: 70vw;
+}
+
+
