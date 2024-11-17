@@ -52,12 +52,6 @@ z-index: -1;
 
 }
 
-body {
-    background-image: u rl(aaa.jpg);
-    background-repeat: repeat-y;
-    background-size: 100vw;
-    background-color: #a9b4a4;
-}
 #bild1 {
     width: 100%;
     margin: 0px;
