@@ -1,1 +1,44 @@
-﻿
+﻿<head><meta charset="UTF-8">
+    <html>
+      <title>Simon & Lilli </title>
+    <link  rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="kirche.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Ms+Madi&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+
+<div id="container">
+    <h1> Lilli & <br> Simon </h1>
+    <p id="demo"></p>
+
+<script>
+    var countDownDate = new Date("Apr 5, 2025 15:37:25").getTime();
+    var x = setInterval(function() {
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "Verheiratet!";
+  }
+}, 1000);
+
+</script>
+    <div id="blackground" class="element2"></div>
+    
+    <img src="aaaa.jpg" id="bild2" class="element1">
+    <img src="aaaaaa.jpg" id="bild1">
+</div>
+<div id="h2"> 
+    <div class="aboutus"> 
+      <h2 class="antwort" style="text-align: left; padding-left: -1vw;"> About us ...</h2>
+    
+      <p>Hallo wir sind Lilli und Simon, dieser Tag wird ganz besonders und wir freuen uns darauf den tag mit dir zu feiern. </p>
+    </div>  

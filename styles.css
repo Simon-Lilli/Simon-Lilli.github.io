@@ -1,5 +1,11 @@
 ﻿
-
+html {
+    color: white;
+    font-family: 'Amatic Sc';
+    padding: 0px;
+    margin: 0px;
+    overflow-x: 0px;
+}
 
 
 
@@ -22,13 +28,13 @@
 .inputs {
     border: 0px solid black;
     border-bottom: 1px solid black; 
-    font-size: 21;
+    font-size: 40;
 
 }
 .label {
     border: 0px solid black;
     border-bottom: 1px solid black; 
-    font-size: 21;
+    font-size: 40;
 
 }
 .hintergr {
@@ -45,64 +51,32 @@ z-index: -1;
     box-shadow: 20px 20px 19px rgb(72, 95, 72);
 
 }
-.testtt {
-    background-color: white;
-    border: 1px black solid;
-    border-radius: 25px;
-    margin-left: 25vw;
-    margin-right: 25vw;
-    margin-top: 50px;
-    
-}
-.testttt {
-    background-color: white;
-    border: 1px black solid;
-    border-radius: 22px;
-    margin-left: 25vw;
-    margin-right: 25vw;
-    margin-top: 50px;
-    padding-bottom: 50px;
-}
+
 body {
-    background-image: url(aaa.jpg);
+    background-image: u rl(aaa.jpg);
     background-repeat: repeat-y;
     background-size: 100vw;
+    background-color: #a9b4a4;
 }
 #bild1 {
-    width: 100vw;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    animation: fadeInOut 12s infinite;
-    animation-delay: 6s;
-    filter:blur(8px);
+    width: 100%;
+    margin: 0px;
     z-index: 2;
+    padding: 0px;
+    display:block;
+
 }
-#bild2 {
-    width: 100vw;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    animation: fadeInOut 12s infinite; /* Wechselt alle 6 Sekunden */
-    filter:blur(8px);
-    z-index: 2;
+
+
     
-}
-#container {
-    height: 600px;
-    
-}
-@keyframes fadeInOut {
-    0% { opacity: 1; }   /* Start: Volle Deckkraft */
-    50% { opacity: 0; }  /* Mitte: Bild wird unsichtbar */
-    100% { opacity: 1; } /* Ende: Volle Deckkraft wieder */
-}
+
 h1 {
     text-align: left;
     z-index: 200;
     opacity: 20;
-    position: relative;
-    top:250px;
+    position: absolute;
+    top:200px;
+
     font-size: 100;
     color: white;
     font-family: 'Ms Madi';
@@ -112,40 +86,64 @@ h1 {
 #demo {
     z-index: 20;
     opacity: 100;
-    position: relative;
-    top: -300px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
     text-align: right;
     font-size: xxx-large;
     color: white;
     padding-right: 20px;
+    font-family: 'Courier New', Courier, monospace;
 
 }
-#blackground {
-    height: 550px;
-    background-color: black;
-    width: 100vw;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-}
+
 #cr7 {
     text-align: center;
     color: white;
 }
 
 .aboutus {
-    background-color: white;
-    border: 1px black solid;
-    border-radius: 25px;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-top: 200px;
-    padding: 5vw;
+ 
     font-size: 46;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 hr {
-    border: 1px solid black; width: 40vw; margin-top: -15px; width: 70vw;
+    border: 1px solid white;
+     width: 40vw;
+     margin-top: -15px;
+
 }
 
+h2 {
+    font-family: 'Ms Madi';
+    font-size: 60;
+}
+#email {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#strich {
+    height: 200px;
+    width: 0.5vw;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    margin-left: 48.75vw;
+    margin-right: 48.75vw;
+    margin-top: 100px;
+ 
+}
+#warumgehtdasnicht {
+    background-color: black;
+}
+.Bilder {
+    width: 50%;
+    float: left;
+}
 
+#linke:any-link {
+    color: white;
+}
