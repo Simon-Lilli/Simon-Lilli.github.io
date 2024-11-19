@@ -1,65 +1,72 @@
 ﻿
+#container {
+    position: relative;
+    0px
+}
 html {
     color: white;
     font-family: 'Amatic Sc';
     padding: 0px;
     margin: 0px;
     overflow-x: 0px;
+    background-color: a9b4a4;
     
 }
-
+.testtt {
+    border: 4px solid white;
+    border-radius: 7px;
+    padding: 20px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    
+}
 
 
 #h2 {
     text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
     
 }
 .antwort {
-  font-size: 60;
+    font-size: 80;
+  
+  text-align: center;
+   padding-left: -1vw;
 }
 .frage {
   
-    font-size: 40 ;
+    font-size: 50;
+    font-weight: bolder;
+
     
 }
-.frage2 {
-  
-    font-size: 40 ;
-}
+
 .inputs {
     border: 0px solid black;
     border-bottom: 1px solid black; 
-    font-size: 40;
+    font-size: 3vw;
 
 }
 .label {
     border: 0px solid black;
     border-bottom: 1px solid black; 
-    font-size: 40;
+    font-size: 3vw;
 
 }
-.hintergr {
-position:absolute;
-top: 0px;
-left: 0px;
-width: 100vw;
-background-repeat:repeat-y;
-background-position: left;
-z-index: -1;
-}
+
 #map {
     border: black solid 3px;  
     box-shadow: 20px 20px 19px rgb(72, 95, 72);
 
 }
 
+
 #bild1 {
-    width: 100%;
+    width: 100vw;
     margin: 0px;
     z-index: 2;
     padding: 0px;
-    display:block;
-
 }
 
 
@@ -70,8 +77,7 @@ h1 {
     z-index: 200;
     opacity: 20;
     position: absolute;
-    top:200px;
-
+    top: 200px;
     font-size: 100;
     color: white;
     font-family: 'Ms Madi';
@@ -102,18 +108,21 @@ h1 {
     font-size: 46;
     padding-left: 40px;
     padding-right: 40px;
+    
 }
 
 hr {
     border: 1px solid white;
      width: 40vw;
      margin-top: -15px;
+   
 
 }
 
 h2 {
     font-family: 'Ms Madi';
     font-size: 60;
+   
 }
 #email {
     margin-top: 20px;
@@ -129,19 +138,64 @@ h2 {
     margin-left: 48.75vw;
     margin-right: 48.75vw;
     margin-top: 100px;
- 
+    padding: 0px;
 }
 #warumgehtdasnicht {
     background-color: black;
+    position: relative;
+    top: 0px;
 }
 .Bilder {
-    width: 50%;
-    float: left;
+    width: 47%;
+   
+}
+#bildchen {
+    display: inline-flex;
+    justify-content:space-evenly;
+}
+.linke:any-link {
+    color: 504f4c;
+}
+.linke:hover {
+    color:b6886a;
+}
+#submit {
+    all: unset;
+    font-size: 40;
+    border: 2px solid white;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: b9c4b4;
+    
+}
+#beitrag {
+    margin-bottom: 20px;
+}
+.forms {
+    text-align: right;
+    margin-right: 28%;
+}
+#geschenkeliste {
+    background-color: b9c4b4 ;
+    width: fit-content;
+   border-radius: 10px;
+    padding: 10px;
+  
+}
+#kindhaber {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.monologdiktat {
+    text-align: justify;
+}
+#fe1n {
+    margin-bottom: 40px;
 }
 
-#linke:any-link {
-    color: white;
-}
-body {
-    background-color: #a9b4a4;
+.monologdiktate {
+    text-align: justify;
+    font-size: 50;
+    font-weight: bolder;
 }
