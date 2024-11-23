@@ -124,10 +124,7 @@ h2 {
     font-family: 'Ms Madi';
     font-size: 60;
 }
-#number {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+
 #strich {
     height: 200px;
     width: 0.5vw;
@@ -223,4 +220,8 @@ border-radius: 5%;
 }
 relativierend {
     position: relative;
+}
+.inputs {
+    top-margin: 20px;
+    bottom-margin: 20px;
 }
